@@ -19,7 +19,7 @@ The code has been written in Matlab. You need to install [CVX](http://cvxr.com/c
 
 # Citation
 
-> @inproceedings{mitzenmacher2015scalable, \n
+> @inproceedings{muscostsourakakis2018opdyn, 
 > title={Minimizing Controversy and Disagreement in Social Networks},
 > author={Musco, Cameron, and Musco, Christopher, and Tsourakakis, Charalampos},
 > booktitle={{Proceedings of the 27th International conference on World Wide Web (WWW)},
