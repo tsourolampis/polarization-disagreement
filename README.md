@@ -13,7 +13,7 @@ The code has been written in Matlab. You need to install [CVX](http://cvxr.com/c
 1. **OptimizeInnate.m** ([see Section 3.3]()): Given a graph represented by the adjacency matrix A, a budget alpha, and a vector of innate opinions s, the code finds a correction vector x with total ell_1 norm at most alpha, that minimizes the sum of disagreement and polarization. 
 2. **OptInnate_Demo.m**: A demo file for *OptimizeInnate*.
 3. **LearnG.m**: Given a vector of innate opinions represented by a vector s, and a budget W on the total weight of the edges, this function learns the graph that minimizes the polarization-disagreement index in polynomial time. To run it, you need to add CVX to your path. 
-4. **demo_LearnG**: A demo file for *LearnG*. Given the number of nodes n, and a set of parameters, this code samples repeatedly a vector of innate opinions s from a distribution specified bythe argument parameters, and runs *LearnG*, and the sparsification procedure of Spielman-Srivastava. The latter requires the  [GSP toolbox](https://epfl-lts2.github.io/gspbox-html/).
+4. **demo_LearnG**: A demo file for *LearnG*. Given the number of nodes n, and a set of parameters, this code samples repeatedly a vector of innate opinions s from a distribution specified by the argument parameters, and runs *LearnG*, and the sparsification procedure of Spielman-Srivastava. The latter requires the  [GSP toolbox](https://epfl-lts2.github.io/gspbox-html/).
 
  
 
